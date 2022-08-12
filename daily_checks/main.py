@@ -10,5 +10,5 @@ class ConcreteDailyCheck1(DailyCheck):
         print(f"I am {self.name}")
 
 
-myvar = ConcreteDailyCheck1("", "")
-myvar.perform_check()
+my_daily_check = ConcreteDailyCheck1("", "")
+my_daily_check.perform_check()
