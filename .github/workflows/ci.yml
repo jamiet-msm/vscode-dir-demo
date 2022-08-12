@@ -8,6 +8,7 @@ on:
     branches:
       - main
 
+jobs:
   super-lint:
     name: Lint Code Base
     runs-on: [ubuntu]
