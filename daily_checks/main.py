@@ -1,8 +1,6 @@
 from daily_checks import DailyCheck
 
 
-
-
 class ConcreteDailyCheck1(DailyCheck):
     def __init__(self, environment, prefix):
         self.name = "concrete daily check"
@@ -10,6 +8,7 @@ class ConcreteDailyCheck1(DailyCheck):
 
     def perform_check(self):
         print(f"I am {self.name}")
+
 
 myvar = ConcreteDailyCheck1("", "")
 myvar.perform_check()

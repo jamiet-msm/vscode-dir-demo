@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class DailyCheck(ABC):
     name: str
     prefix: str
