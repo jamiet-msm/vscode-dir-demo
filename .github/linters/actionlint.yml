@@ -1,0 +1,8 @@
+---
+self-hosted-runner:
+  # Labels of self-hosted runner in array of string
+  labels:
+    - ubuntu
+    - docker-worker
+    - generic
+    - prod
